@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>¿Qué es html?</h1>
+            <p>Lenguaje de marcado</p>
+        </header>
+        <p>html es un lenguaje de marcado para .....</p>
+    </article>
+    <div style="background:yellow;">
+        <h2> Ejemplo de div <h2>
+        <p> Párrafo dentro de etiqueta div</p>
+      </div>
+    <div style="color:blue;">
+        <h2> Ejemplo de div <h2>
+        <p> Párrafo dentro de etiqueta div</p>
+      </div>
+      <p style="color:blueviolet;">
+        Ejemplo de p para ver si sirve xd 
+        lsjljkdssdjafjasf
+      </p>
+      <section>
+          <h1>noticias</h1>
+          <p>esta es la sección de noticias</p>
+      </section>
+      <nav>
+        <ul>
+         <li><a href=”/es/”>Inicio</a></li>
+         <li><a href=”/es/tutorials.html”>Tutoriales</a></li> 
+         <li><a href=”/es/reference.html”>Referencia</a></li> 
+         <li><a href=”/es/tolos-resources.html”>Recursos</a></li>
+         <li><a href=”/es/contactus.php”>Contáctame</a></li> 
+        </ul> 
+     </nav>
+     <section>
+         <h1>Tutoriales y Referencias HTML</h1>
+         <p>Este es un sitio web que esta dedicado a proveer tutoriales y referencias del lenguaje más basico de la web...</p>
+     </section>
+     <details>
+       <summary>detalles adicionales</summary>
+       <p>informacion con más detalles aqui</p>
+     </details>
+     <p>Estan aprendiendo <mark>html</mark> hoy</p>
+     <a href="https://www.hm.com/entrance.ahtml?orguri=%2F"> aqui el enlace de HyM </a>
+     <p>ellas viajan el <time datetime="2021-09-14">14 de sptiembre</time> hacia Bogota.</p>
+     <p>el viaje es a las <time datetime="20:00">20:00</time> horas y dura <time datetime="PT3H30M">3H 30m</time> aproximadamente</p>
+  <h1>video de Adele</h1>
+  <video width="320" height="240" controls>
+    <source src="video/Adele.mp4" type="video/mp4"></video>
+  <h1>mi grabacion</h1>
+  <audio controls>
+    <source src="audio/Cancion.mp3" type="audio/mp3">
+  </audio>
+  <h1 align="center">  
+      Si la vida te da limones has un pie de limon 
+  </h1>
+  </h2>video de Youtube</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=7mOc6qDP4x4" 
+  title="YouTube video Adele" frameborder="0" allow="accelerometer; autoplay; 
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe  width="560" height="315" 
+  <iframe  width="560" height="315" src="https://www.falabella.com.pe/falabella-pe" title="falabella-pe"></iframe>
+  <table>
+      <thead>
+          <tr>
+          <th>continente</th>
+          <th>pais</th>
+          <th>capital</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>europa</td>
+              <td>españa</td>
+              <td>madrid</td>
+          </tr>
+          <tr>
+              <td>amaerica</td>
+              <td>peru</td>
+              <td>lima</td>
+          </tr>
+      </tbody>
+  </table>
+  <h1>Formulario</h1>
+  <form>
+      <label for="email-example">Correo electrónico</label>
+      <input type="email" id="email-example" placeholder="Ingrese su email"
+        name="email-example" required>
+    </form>
+  <!-- Formulario simple que enviará una petición GET -->
+  <form action="">
+      <label for="GET-name">Nombre:</label>
+      <input id="GET-name" type="text" name="name">
+      <input type="submit" value="Save">
+    </form>
+    
+    <!-- Formulario simple que enviará una petición POST -->
+    <form action="" method="post">
+      <label for="POST-name">Apellido:</label>
+      <input id="POST-name" type="text" name="name">
+      <input type="submit" value="Save">
+    </form>
+    
+    <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+    <form action="" method="post">
+      <fieldset>
+        <legend>Si la vida te da limones has pie de limon</legend>
+        <input type="radio" name="radio" id="radio"> <label for="radio">Clic aquí</label>
+      </fieldset>
+    </form>
+    <form>
+      <label for="password-example">Contraseña</label>
+      <input
+        type="password"
+        id="password-example"
+        placeholder="Password"
+        name="password-example"
+        required
+      />
+    </form>
+    <p>¿Que color prefieres?</p>
+    <select name="select-example">
+      <option value="value1">a. Rojo</option>
+      <option value="value2" selected>b. Azul</option>
+      <option value="value3">c. Verde</option>
+    </select>
+    <label>
+      <input type="radio" name="gender" value="female"> Mujer
+    </label>
+    <label>
+      <input type="radio" name="gender" value="male"> Hombre
+    </label>
+    <label>
+      <input type="radio" name="gender" value="no-gender"> No deseo brindar información
+    </label>
+    <label>
+      <input type="checkbox" name="conditions" value="accept-conditions" checked />
+      Acepto los términos y condiciones
+    </label>
+    <button type="submit">Enviar</button>
+  </body>
+  </html>
+</body>
+</html>
